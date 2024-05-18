@@ -8,19 +8,19 @@ header h1,
 section h2,
 section h3,
 form button{
-    font-family: 'bungee', cursive;
+    font-family: 'Roboto Mono', monospace;
     font-weight: normal;
 }
 
 body,
 input,
 textarea{
-    font-family: 'roboto' , sans-serif;
+    font-family: 'roboto Mono' , sans-serif;
 }
 
 header{
     padding: 16px 0;
-    background-color: #eb7609;
+    background-color:#ff00d4 ;
     color: #ecf0f1;
 }
 
@@ -49,14 +49,6 @@ section .conteiner{
     justify-content: space-between;
 }
 
-.team-logos img{
-    height: 88px;
-}
-
-.team-logos li {
-    display: inline;
-    margin-right: 8px;
-}
 
 section .conteiner {
     align-items: flex-start;
@@ -74,9 +66,9 @@ section p {
     margin-bottom: 8px;
 }
 
-.comunid-cs2 {
-    margin-right: 32px;
-    height: 280px;
+.foto-autora {
+    margin-right: 16px;
+    height: 400px;
 }
 
 .social-links img {
@@ -120,22 +112,22 @@ section h3{
 }
 
 form button{
-    background-color: #eb7609;
+    background-color: #ff00d4;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #f09139;
+    background-color: #f407fc;
 }
 
 input:focus, textarea:focus{
-    outline-color: #eb7609;
+    outline-color: #ff00d4;
 }
 
 footer{
-    background-color: #eb7609;
+    background-color: #ff00d4;
     color: #fff;
     padding-top: 16px;
 }
